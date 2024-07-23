@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <section id="sec1">
+        <div class="start">
+            <h1>Number Guessing game</h1>
+            <button onclick="easy()">Easy</button>
+            <button onclick="medium()">Medium</button>
+            <button onclick="hard()">Hard</button>
+        </div>
+    </section>
+
+    <section id="sec2">
+        <div class="game">
+            <h1>Number Guessing Game</h1>
+            <p class="choose">choose a number from 1 to <span class="max">10</span></p>
+            <div class="inp-btn">
+                <input type="number" name="number" id="number">
+                <button class="check">Check</button>
+            </div>
+            <p class="result"></p>
+        </div>
+    </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
